@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "logicApp_name": {
+      "value": "<your-logic-app-name>"
+    },
+    "keyVault_connection_name": {
+      "value": "<your-key-vault-connection-name>"
+    },
+    "office365_connection_name": {
+      "value": "<your-o365-connection-name>"
+    },
+    "keyVault_name": {
+      "value": "<your-key-vault-name>"
+    },
+    "tenant_id": {
+      "value": "<your-Entra-tenant-id>"
+    },
+    "client_id": {
+      "value": "<your-Graph-application-id>"
+    },
+    "sharedMailbox": {
+      "value": "<your-shared-mailbox-to-notify>"
+    },
+    "threshold_days": {
+      "value": 30
+    },
+    "graph_client_secret_name": {
+      "value": "<your-key-vault-secret-name>"
+    }
+  }
+}
