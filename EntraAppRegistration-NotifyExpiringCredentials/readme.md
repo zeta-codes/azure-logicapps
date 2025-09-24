@@ -77,3 +77,13 @@ Proactively alerts app owners when **Microsoft Entra application secrets/certifi
 - **Graph 401/403** → Verify admin consent, `tenant_id`/`client_id`, and the **Key Vault secret value**.
 - **Key Vault 403** → Managed identity is missing Key Vault rights (assign RBAC role or access policy).
 - **Office 365 send fails** → Re-authorize the connector; verify mailbox permissions.
+
+---
+
+## Screenshots
+
+![Owners notification email](./img/ownerMailNotification.png)
+*Figure 1: Example email sent to app owners.*
+
+![Shared mailbox summary notification email](./img/monitoringMailNotification.png)
+*Figure 2: Example email sent to shared mailbox.*
